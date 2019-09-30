@@ -12,14 +12,14 @@ namespace Laboratorio4
 
             Console.WriteLine("EJERCICIO 1");
             int[] arreglo = {10, 20, 5, 15, 30, 20};
-            int n, total = 0, maximo = -1, contadorApariciones = 0;
+            int total = 0, maximo = arreglo[0], contadorApariciones = 0;
 
-            for (n = 0; n < arreglo.Length; n++)
+            for (int i = 0; i < arreglo.Length; i++)
             {
-                if (n % 2 != 0) Console.WriteLine($"Posición  {n}\tValor:{arreglo[n]}");
-                if (arreglo[n] > maximo) maximo = arreglo[n];
-                if (arreglo[n] == 20) contadorApariciones++;
-                total += arreglo[n];
+                if (i % 2 != 0) Console.WriteLine($"Posición  {i}\tValor:{arreglo[i]}");
+                if (arreglo[i] > maximo) maximo = arreglo[i];
+                if (arreglo[i] == 20) contadorApariciones++;
+                total += arreglo[i];
             }
 
             Console.WriteLine($"El numero mayor es: {maximo}");
