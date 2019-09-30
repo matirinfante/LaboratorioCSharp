@@ -1,0 +1,11 @@
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4.deps.json
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4.runtimeconfig.json
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4.runtimeconfig.dev.json
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4.dll
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/bin/Debug/netcoreapp3.0/Laboratorio4.pdb
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/obj/Debug/netcoreapp3.0/Laboratorio4.csprojAssemblyReference.cache
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/obj/Debug/netcoreapp3.0/Laboratorio4.AssemblyInfoInputs.cache
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/obj/Debug/netcoreapp3.0/Laboratorio4.AssemblyInfo.cs
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/obj/Debug/netcoreapp3.0/Laboratorio4.dll
+/home/matias/RiderProjects/Laboratorio/Laboratorio4/obj/Debug/netcoreapp3.0/Laboratorio4.pdb
