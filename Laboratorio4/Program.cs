@@ -135,6 +135,47 @@ namespace Laboratorio4
             }
 
             #endregion
+
+            #region Counting sort
+
+            int[] arreglitoDesordenado = {5, 9, 1, 4, 10, 80}, arregloAux, arregloFinal;
+            int max = arreglitoDesordenado[0];
+            //Busca el max
+            foreach (var elem in arreglitoDesordenado)
+            {
+                if (elem > max)
+                {
+                    max = elem;
+                }
+            }
+
+            arregloAux = new int[max];
+            arregloFinal = new int[arreglitoDesordenado.Length];
+            //Cuenta
+            foreach (var elem in arreglitoDesordenado)
+            {
+                //Console.WriteLine(arregloAux[0]);
+                arregloAux[elem - 1] = ++arregloAux[elem - 1];
+            }
+
+            //Pasa en limpio
+            int iterador = 0;
+            for (int i = 0; i < arregloAux.Length; i++)
+            {
+                if (arregloAux[i] != 0)
+                {
+                    arregloFinal[iterador] = i + 1;
+                    iterador++;
+                }
+            }
+
+            //Muestra
+            foreach (var elem in arregloFinal)
+            {
+                Console.Write($"{elem}\t");
+            }
+
+            #endregion
         }
     }
 }
